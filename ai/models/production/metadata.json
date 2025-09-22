@@ -1,0 +1,22 @@
+{
+  "feature_columns": [
+    "volatility",
+    "volume_24h",
+    "price_change_1h",
+    "price_change_24h",
+    "market_cap",
+    "gas_price_gwei",
+    "liquidity_score",
+    "hour_of_day",
+    "day_of_week",
+    "volume_ma_7d",
+    "volatility_ma_7d",
+    "price_momentum",
+    "volume_ratio",
+    "gas_trend"
+  ],
+  "is_trained": true,
+  "best_model_name": "neural_network",
+  "training_timestamp": "2025-09-21T00:05:01.598040",
+  "model_version": "2.0"
+}

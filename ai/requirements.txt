@@ -1,0 +1,26 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# HTTP and async dependencies
+requests
+aiohttp
+asyncio-throttle
+
+# Data processing and ML
+numpy
+pandas
+scikit-learn
+tensorflow
+
+# Blockchain and Web3
+web3
+pythclient
+
+# Caching and utilities
+cachetools
+
+# Production dependencies
+gunicorn
