@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 
 const config = getDefaultConfig({
   appName: 'Aura Protocol',
-  projectId: 'aura-protocol',
+  projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || 'aura-protocol-demo',
   chains: [avalancheFuji],
   ssr: true,
 });

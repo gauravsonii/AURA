@@ -1,0 +1,21 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/.next",
+  "framework": "nextjs",
+  "installCommand": "cd frontend && npm install",
+  "devCommand": "cd frontend && npm run dev",
+  "functions": {
+    "frontend/src/app/**/*.tsx": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "NEXT_PUBLIC_AI_API_URL": "https://aura-production-6374.up.railway.app",
+    "NEXT_PUBLIC_AI_ENABLED": "true",
+    "NEXT_PUBLIC_RPC_URL": "https://api.avax.network/ext/bc/C/rpc",
+    "NEXT_PUBLIC_CHAIN_ID": "43114",
+    "NEXT_PUBLIC_ENABLE_AI": "true",
+    "NEXT_PUBLIC_ENABLE_GOVERNANCE": "true",
+    "NEXT_PUBLIC_ENABLE_MAGIC_LINKS": "true"
+  }
+}
