@@ -3,3 +3,5 @@ contract/
 *.md
 LICENSE
 .gitignore
+.gitmodules
+.DS_Store
