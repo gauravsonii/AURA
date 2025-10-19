@@ -1,10 +1,5 @@
 {
   "framework": "nextjs",
-  "functions": {
-    "src/app/**/*.tsx": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "env": {
     "NEXT_PUBLIC_AI_API_URL": "https://aura-production-6374.up.railway.app",
     "NEXT_PUBLIC_AI_ENABLED": "true",
